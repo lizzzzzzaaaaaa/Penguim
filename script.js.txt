@@ -1,0 +1,12 @@
+
+function showFact() {
+    const facts = [
+        "Пінгвіни не літають, але плавають як професіонали!",
+        "Найбільший пінгвін — імператорський.",
+        "Пінгвіни можуть затримувати дихання до 20 хвилин!",
+        "Вони впізнають один одного за голосом."
+    ];
+
+    let random = Math.floor(Math.random() * facts.length);
+    document.getElementById("fact").textContent = facts[random];
+}
